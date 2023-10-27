@@ -1,7 +1,7 @@
 import React from 'react'
 import './Background.css'
 import { useDispatch, useSelector } from 'react-redux'
-import { black, blue, green, info, orange, red, yellow } from '../redux/backgroundSlice'
+import { black, green, orange, red } from '../redux/backgroundSlice'
 
 function Background() {
   const back=useSelector((state)=>state.backgroundReducer.count)
