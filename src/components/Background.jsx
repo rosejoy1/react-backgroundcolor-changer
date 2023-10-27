@@ -23,12 +23,12 @@ function Background() {
   return (
     <div className={bgContent} style={{display:'flex',justifyContent:'center',alignItems:'center',height:'100vh',width:'100%'}} >
    <div>
-      <h1 style={{color:'white',fontWeight:'bold',fontFamily:'revert-layer'}}>BACKGROUND COLOR CHANGER</h1>
-      <div className='d-flex justify-content-between bgButton border rounded bg-light p-5'>
-        <button style={{width:'100px',fontWeight:'bold'}} onClick={()=>dispatch(black())} className='btn btn-dark rounded border' >BLACK</button>
-        <button style={{width:'100px',fontWeight:'bold'}} onClick={()=>dispatch(red())}  className='btn btn-danger rounded border' >RED</button>
-        <button style={{width:'100px',fontWeight:'bold'}} onClick={()=>dispatch(orange())}  className='btn btn-warning rounded border' >ORANGE</button>
-        <button style={{width:'100px',fontWeight:'bold'}} onClick={()=>dispatch(green())} className='btn btn-success rounded border' >GREEN</button>
+      <h1 className='content' style={{color:'white',fontWeight:'bold',fontFamily:'revert-layer'}}>BACKGROUND COLOR CHANGER</h1>
+      <div className='d-flex flex-wrap  justify-content-between bgButton border rounded bg-light p-5 m-3'>
+        <button style={{width:'100px',fontWeight:'bold'}} onClick={()=>dispatch(black())} className='btn m-3 btn-dark rounded border' >BLACK</button>
+        <button style={{width:'100px',fontWeight:'bold'}} onClick={()=>dispatch(red())}  className='btn m-3 btn-danger rounded border' >RED</button>
+        <button style={{width:'100px',fontWeight:'bold'}} onClick={()=>dispatch(orange())}  className='btn m-3 btn-warning rounded border' >ORANGE</button>
+        <button style={{width:'100px',fontWeight:'bold'}} onClick={()=>dispatch(green())} className='btn m-3 btn-success rounded border' >GREEN</button>
       </div>
   
    </div>
