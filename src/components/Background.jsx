@@ -24,7 +24,7 @@ function Background() {
     <div className={bgContent} style={{display:'flex',justifyContent:'center',alignItems:'center',height:'100vh',width:'100%'}} >
    <div>
       <h1 className='content' style={{color:'white',fontWeight:'bold',fontFamily:'revert-layer'}}>BACKGROUND COLOR CHANGER</h1>
-      <div className='d-flex flex-wrap  justify-content-between align-items-center bgButton border rounded bg-light p-5 m-3'>
+      <div className='d-flex flex-wrap  justify-content-between align-items-center bgButton border rounded bg-light p-1 m-3'>
         <button style={{width:'100px',fontWeight:'bold'}} onClick={()=>dispatch(black())} className='btn m-3 btn-dark rounded border' >BLACK</button>
         <button style={{width:'100px',fontWeight:'bold'}} onClick={()=>dispatch(red())}  className='btn m-3 btn-danger rounded border' >RED</button>
         <button style={{width:'100px',fontWeight:'bold'}} onClick={()=>dispatch(orange())}  className='btn m-3 btn-warning rounded border' >ORANGE</button>
